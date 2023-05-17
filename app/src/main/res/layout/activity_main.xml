@@ -24,16 +24,88 @@
 
         <ImageView
             android:id="@+id/imageView1"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
             app:layout_column="0"
             app:layout_row="0"
             app:srcCompat="@drawable/cross" />
+
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            app:layout_column="0"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            app:layout_column="1"
             app:layout_row="0"
-            app:srcCompat="@drawable/cross" />    </androidx.gridlayout.widget.GridLayout>
+            app:srcCompat="@drawable/cross" />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/cross" />
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/cross" />
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/cross" />
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/cross" />
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/cross" />
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/cross" />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="18dp"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/cross" />
+
+
+
+    </androidx.gridlayout.widget.GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
