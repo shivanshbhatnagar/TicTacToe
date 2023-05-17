@@ -57,4 +57,29 @@ import java.util.Arrays;
                 }
             }
         }
+        public void reset(View view){
 
+            GridLayout gridLayout=findViewById(R.id.gridLayout);
+            int total_images = gridLayout.getChildCount();
+            for(int i = 0; i<total_images;i++){
+                ImageView v = (ImageView) gridLayout.getChildAt(i);
+                v.setImageDrawable(null);
+            }
+            isWinner = false;
+            imageClicked = -1;
+            Arrays.fill(gameState, -1);
+        }
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_main);
+        }
+    }
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+
+    }
+}
